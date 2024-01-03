@@ -35,7 +35,7 @@ html {
 
 body {
     min-height: 100vh;
-    background: url("imagens/pattern.png");
+    background: url("/imagens/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -498,7 +498,6 @@ h1, h2, h3, h4, h5, h6 {
     border: 0.2rem solid var(--lils);
     width: 100%;
     margin-top: 4rem;
-    margin-bottom: 2rem;
     padding: 1.8rem;
     font-size: 1.8rem;
     font-style: normal;
