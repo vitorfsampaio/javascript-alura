@@ -1,11 +1,14 @@
 const elementoParaInserirLivros = document.querySelector('#livros');
+const elementoValorTotal = document.querySelector('#valor_total_livros_disponiveis')
 
 function exibirOsLivrosNaTela(listaDeLivros){
+  elementoValorTotal.innerHTML = ''
   elementoParaInserirLivros.innerHTML = ''
     listaDeLivros.forEach(livro => {
+      let disponibilidade = livro.quantidade > 0 ? 'livro__imagens' : 'livro__imagens indisponivel'
         elementoParaInserirLivros.innerHTML += `
         <div class="livro">
-        <img class="livro__imagens" src="${livro.imagem}"
+        <img class="${disponibilidade}" src="${livro.imagem}"
           alt="${livro.alt}"/>
         <h2 class="livro__titulo">
           ${livro.titulo}

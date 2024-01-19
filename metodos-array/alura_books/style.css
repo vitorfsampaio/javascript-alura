@@ -31,6 +31,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 278px;
+  width: 100%;
 }
 
 .nav {
