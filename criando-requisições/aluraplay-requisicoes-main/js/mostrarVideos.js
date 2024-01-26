@@ -17,7 +17,6 @@ function constroiCard(titulo, descricao, url, imagem) {
         <p>${descricao}</p>
     </div>
     `
-
     return video;
 }
 
