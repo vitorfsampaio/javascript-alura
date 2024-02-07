@@ -16,6 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/formulario/styles.css">
+    <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
@@ -86,12 +87,15 @@
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__termos">
-                    <input name="termos" class="termos__input" type="checkbox" required>
-                    <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
-                        descrito na Política
-                        de
-                        Privacidade do banco.</p>
+                    <input name="termos" id="termos" class="termos__input" type="checkbox" required>
+                    <label for="termos">
+                        <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
+                            descrito na Política
+                            de
+                            Privacidade do banco.</p>
+                    </label>
                     <span class="mensagem-erro"></span>
+                    
                 </fieldset>
 
                 <div>
